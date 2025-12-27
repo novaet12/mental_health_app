@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'screen/auth_page.dart';
+import 'screen/main_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         fontFamily: 'Roboto',
       ),
 
-      home:  AuthPage(),
+      home:  MainPage(),
     );
   }
 }

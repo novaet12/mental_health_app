@@ -28,6 +28,7 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  getwidget: ^7.0.0
   flutter:
     sdk: flutter
 
@@ -36,6 +37,7 @@ dependencies:
   cupertino_icons: ^1.0.8
 
 dev_dependencies:
+  
   flutter_test:
     sdk: flutter
 
@@ -51,15 +53,12 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
-
-  # The following line ensures that the Material Icons font is
-  # included with your application, so that you can use the icons in
-  # the material Icons class.
   uses-material-design: true
 
-
-assets:
-    - lib/images
+  assets:
+    - assets/images/user.png
+    # or to include all images in that folder:
+    # - assets/images/
   # To add assets to your application, add an assets section, like this:
    #assets:
     # - lib/images
